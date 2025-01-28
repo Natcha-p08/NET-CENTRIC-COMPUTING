@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>mypage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: lightgrey;
+            font-family: 'Kanit', sans-serif;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div.container {
+            background-color: whitesmoke;
+            margin: 2%;
+            padding: 1%;
+            border-radius: 10px;
+        }
+        div.header {
+            color: whitesmoke;
+            background-color: #041126;
+            border-radius: 10px;
+            text-align: center;
+            h1 {
+                margin-top: 2px;
+                margin-bottom: 1px;
+            }
+            p {
+                margin-top: 1px;
+                padding-bottom: 5px;
+            }
+        }
+
+        div.main {
+            display: flex;
+            margin: auto;
+            gap: 20px;
+        }
+        
+        section.main_left {
+            max-width: 40%;
+            img.personal {
+                max-width: 100%;
+                margin-top: 5px;
+                border-radius: 15px;
+            }
+        }
+        
+        section.main_right {
+            h1 {
+                margin-top: 0px;
+                font-size: 30px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CS322 : NET-CENTRIC COMPUTING</h1>
+            <p>Programming Assignment : Simple Web Server</p>
+        </div>
+        <div class="main">
+            <section class="main_left">
+                <img class="personal" src="myimage.gif" alt="presonal image">
+            </section>
+            <section class="main_right">
+                <h1>ข้อมูลส่วนตัว</h1>
+                <p>ชื่อ-สกุล   :   ธารา    ศรีธราดล</p>
+                <p>เลขนักศึกษา :  6509681141</p>
+                <p>วันเดือนปีเกิด   :   1   เมษายน  2547</p>
+                <p>การศึกษา  :   คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต</p>
+                <p>Email    :   thara.sri@dome.tu.ac.th</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
